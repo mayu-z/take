@@ -111,11 +111,7 @@
 
   
 
-//   function myFunction() {
-//     var element = document.body;
-//     element.classList.toogle("dark-mode");
-//  }
-  
+
 
   function herFunction() {
     document.getElementById("myDropdown").classList.toggle("down");
@@ -123,9 +119,9 @@
 
   
   function hisFunction() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
+    document.getElementById("myVideo").classList.toggle("dark-mode");
  }
+
 
  
 
