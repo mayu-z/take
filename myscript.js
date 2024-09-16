@@ -1,5 +1,7 @@
 
   
+ 
+  
   document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(".carousel-container").forEach((carousel) => {
       insertNumbers(carousel);
@@ -111,19 +113,50 @@
 
   
 
+  // const video = document.getElementById("myVideo")
+
+//   function hisFunction() {
+    
+//     // video.style.display = "none";
+//     if(video.style.display = "flex"){
+//       video.style.display = "none";
+//      }
+//     else if(video.style.display = "none"){
+//       video.style.display = "flex"
+//     }
+//  }
+
+// const myFunction = document.getElementById("togglr");
+
+// myFunction.addEventListener('click',() => {
+//   if(video.style.display = "none"){
+//     video.style.display = "none"
+//   }
+//   else if(video.style.display = "none"){
+//     video.style.display = "flex"
+//   }
+// })
 
 
-  function herFunction() {
-    document.getElementById("myDropdown").classList.toggle("down");
-  }
-
+function hisFunction() {
+  const video = document.getElementById("myVideo")
+  video.classList.toggle("dark-mode");
   
-  function hisFunction() {
-    document.getElementById("myVideo").classList.toggle("dark-mode");
- }
+ 
+}
+
+function herFunction() {
+  const dropDown = document.getElementById("myDropdown");
+  dropDown.classList.toggle("down");
+  
+}
 
 
  
+  
+
+
+  
 
 
  
