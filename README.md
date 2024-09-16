@@ -21,6 +21,9 @@ Take is a project I created to demonstrate my frontend development skills when I
 git clone https://github.com/mayu-z/take.git
 ```
 <br><br>
+<h2>Link to the website</h2>
+https://beautiful-gumption-dcebed.netlify.app/
+<br><br>
 <li>Open the index.html file in your browser to explore the project.
 </ol>
 <br><br>
@@ -33,8 +36,8 @@ git clone https://github.com/mayu-z/take.git
 
 <img style="width: 700px;display: grid; align-items: center; " src="https://www.icegif.com/wp-content/uploads/2023/05/icegif-276.gif">
 
-```bash
-https://beautiful-gumption-dcebed.netlify.app/
-```
+
+
+
 <li>Link to the website</li>
 </body>
