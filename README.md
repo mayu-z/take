@@ -39,5 +39,6 @@ https://beautiful-gumption-dcebed.netlify.app/
 
 
 
-<li>Link to the website</li>
+<h1>Thank You ⸜(｡˃ ᵕ ˂ )⸝♡</h1>
+<h2>Have a great day!</h2>
 </body>
