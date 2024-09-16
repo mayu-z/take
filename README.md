@@ -32,4 +32,9 @@ git clone https://github.com/mayu-z/take.git
 <li>Inspired by various portfolio websites I came across when I was new to web development.</li><br><br>
 
 <img style="width: 700px;display: grid; align-items: center; " src="https://www.icegif.com/wp-content/uploads/2023/05/icegif-276.gif">
+
+```bash
+https://beautiful-gumption-dcebed.netlify.app/
+```
+<li>Link to the website</li>
 </body>
