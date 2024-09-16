@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'nymen';
     src: url(fonts/NeueMontreal-Regular.otf);
@@ -41,8 +40,22 @@ html {
 }
 
 
+body {
+    
+    background-image: radial-gradient(#000000a7 1.5px, #979393 0px);
+     background-size: 2vw 2vw;
+  }
+  
+
+.jiro1{
+    width: 100px;
+}
+
+
 body{
-    background-color: #424549;
+    /* background-color: #424549; */
+      
+      
     color: #ffffff;
     min-height: 100%;
     margin: 0;
@@ -145,6 +158,8 @@ body{
 .w-nav{
     z-index: 1000;
     background: #ffffff00;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid white;
     /* position: relative; */
 }
 .w-nav:before, .w-nav:after {
@@ -208,6 +223,10 @@ a {
     
 }
 
+.sora{
+    padding-top: 70px;
+}
+
 .nav-1{
     border-right: 1px solid #ffffff;
 }
@@ -256,7 +275,7 @@ a {
 .w-nav-link:hover{
     font-family: bold;
     border-radius: 200px;
-    background-color: #ffffff15;
+    background-color: #00000015;
 }
 .navbar5_menu-dropdown {
     padding: 0;
@@ -339,9 +358,9 @@ svg:not(:root) {
 
 
 #myVideo {
-    opacity: 0.8;
+    /* opacity: 0.8;
     -o-filter: blur(3px);
-    filter: blur(2px);
+    filter: blur(2px); */
     object-fit: cover;
     position: fixed;
     width: 99.9%; 
@@ -370,11 +389,16 @@ svg:not(:root) {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 0;
+        flex-wrap:  wrap;
+        color: white;
 }
+
 
 
 .text-54{
     font-family: fasly;
+    color: white;
 }
 
 .fas {
@@ -415,8 +439,9 @@ svg:not(:root) {
 }
 
 .mannga:hover{
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: rgba(0, 0, 0, 0.07);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 
 .navbar5_menu-right {
@@ -741,7 +766,7 @@ main section {
         grid-gap: 6px;
         bottom: 12px;
         position: absolute;
-        z-index: 10;
+        z-index: 1;
         display: flex;
         right: 2rem;
         width: 50px;
@@ -762,6 +787,7 @@ main section {
   background-color: rgba(255, 255, 255, 0.144);
   user-select: none;
   font-size: 1rem;
+  z-index: 1;
   color: #ffffff;
 }
 main section .carousel-container .prev:hover{
@@ -785,10 +811,14 @@ main section .carousel-container .prev:hover{
     position: absolute;
     top: 3rem;
     right: 1rem;
-    border-radius: 0.9375rem;
+    border-radius: 5px;
     font-size: 0.875rem;
     color: #ffffff;
     margin-top: 70px;
+    background: #ff0000;
+    font-weight: bolder;
+
+
     
   }
   main section .carousel-container .prev {
@@ -1979,6 +2009,7 @@ a:active, a:hover {
     grid-column-gap: 2rem;
     border-left: 1px #ffffff;
     grid-template-rows: auto;
+    backdrop-filter: blur(10px);
     grid-template-columns: 1fr;
     align-items: start;
 }
@@ -2547,8 +2578,8 @@ a:active, a:hover {
     }
     .kiosei{
         display:  block;
-        height: 100%;
-        max-width: 100%;
+        max-height: 100%;
+        width: 90%;
         
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
@@ -2562,8 +2593,8 @@ a:active, a:hover {
         padding: 1rem 5% 15rem;
         position: absolute;
         transform: translateY(-360px);
-        transition: transform 400ms ease 0s;
-        z-index: 10;
+        transition: transform 1s ease 0s;
+        z-index: 5;
         overflow: hidden;
     }
     .navbar5_bottom{
@@ -2595,7 +2626,7 @@ a:active, a:hover {
         transform: translateY(100px);
         
         position: fixed;
-        transition: transform 400ms ease 0s;
+        transition: transform 1s ease ;
     }
 
 
